@@ -16,12 +16,13 @@ double opcao = Convert.ToDouble(Console.ReadLine());
 
 switch (opcao)
 {
-    case 1:
+    case 1: 
         double resultadoSoma = new CalculosSimples().Somar(numero1, numero2);
         Console.WriteLine($"{numero1} + {numero2} = {resultadoSoma}");
         break;
     case 2:
-        //Código para subtrair
+        double resultadoSubtração = new CalculosSimples().Subtrair(numero1, numero2);
+        Console.WriteLine($"{numero1} - {numero2} = {resultadoSubtração}");
         break;
     case 3:
         //Código para dividir
