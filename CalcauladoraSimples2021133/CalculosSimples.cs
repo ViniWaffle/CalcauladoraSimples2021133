@@ -16,7 +16,15 @@ public class CalculosSimples
         double soma = numero1 - numero2;
         return soma;
     }
-
-
+    public double Divisao(double numero1, double numero2)
+    {
+        double soma = numero1 / numero2;
+        return soma;
+    }
+    public double Multiplicacao(double numero1, double numero2)
+    {
+        double soma = numero1 * numero2;
+        return soma;
+    }
 
 }
